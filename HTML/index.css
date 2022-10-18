@@ -1,0 +1,81 @@
+div h1 {
+    font-size: 30px;
+    margin-top: 4.8px;
+    text-align: center;
+}
+div h2 {
+    font-size: 23px;
+    text-align: center;
+}
+#corpo {
+    margin: auto;
+    width: 650px;
+    line-height: 15px;
+}
+#image-text {
+    display: table;
+    margin: auto;
+}
+#image {
+    display: table-cell;
+    float: left
+}
+#text {
+    display: table-cell;
+    float: left;
+    width: 550px;
+    margin-top: 75px;
+    margin-left: 60px;
+    font-size: 19px;
+}
+body {
+    background-color: rgba(75, 83, 60, 0.911);
+    font-family: sans-serif;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: rgb(50, 71, 14);
+    padding: 10x;
+    }
+.Menu {
+    color: white;
+    font-size: 25px;
+}
+nav {
+    height: 1200px;
+    width: 0px;
+    background-color: rgb(129, 141, 107);
+    position: fixed;
+    top: o;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.1s;
+}
+nav a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+nav a:hover {
+    color: darkolivegreen;
+    background-color: white;
+}
+main {
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+hr {
+    width: 1000px;
+}
+.infos {
+    display: inline-block;
+}
+#contatos {
+    margin-left: 200px;
+}
+

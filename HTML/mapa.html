@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mapa.css">
+    <title>Zoológico</title>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="Menu" onclick="abrirMenu()">&#9776; Menu </a>
+    </header>
+    <nav id="Menu">
+        <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="indexzoo.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="mapa.html">Mapa do ZOO</a>
+        <a href="animais.html">Animais</a>
+        <a href="vegetacao.html">Vegetação</a>
+    </nav>
+    <div align="center">
+        <h1> Mapa do Zoológico </h1>
+        <h3> Confira as áreas do zoológico atravé do mapa disponível! </h3>
+        <img src="photo5jpg.jpg" alt="mapa do zoo">
+    </div>
+    <script>
+        function abrirMenu() {
+            document.getElementById('Menu').style.width = "250px";
+            document.getElementById('conteudo').style.marginleft = "250px";
+                }
+        function fecharMenu() {
+            document.getElementById('Menu').style.width = "0px";
+            document.getElementById('Menu').style.marginleft = "0px";
+        }
+    </script>
+</body>
+</html>

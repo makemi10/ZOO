@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoológico</title>
+    <link rel="stylesheet" type="text/css" href="sobre.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="Menu" onclick="abrirMenu()">&#9776; Menu </a>
+    </header>
+    <nav id="Menu">
+        <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="indexzoo.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="mapa.html">Mapa do ZOO</a>
+        <a href="animais.html">Animais</a>
+        <a href="vegetacao.html">Vegetação</a>
+    </nav>
+    <div>
+        <div id="imagem" align="center">
+            <br><br>
+            <img src="entrada.jpg" alt="Entrada do zoológico" align="middle">
+        </div>
+        
+        <div class="texto">
+            <br>
+            <h1>Sobre o zoológico</h1>
+            <p>A estrutura do zoo conta com 59 recintos de exposição, setor extra e quarentenário, que abrigam os animais residentes
+            e animais recém-chegados e em tratamento. Há no local clínica veterinária e área de manejo, com salas de atendimento,
+            laboratório, sala de cirurgia, área de internação e sala de necropsia, e também um setor de alimentação e biotério
+            para produção de alimentos vivos.<br><br>
+            O Zoo possui uma área de mata e lagos que atraem muitas espécies de aves de vida livre, que podem ser observadas e
+            facilmente, tornando o passeio ainda mais agradável.<br><br>
+            Também é desenvolvido pesquisas em áreas da medicina veterinária e biologia por seu corpo técnico, e também participa e
+            projetos de outras instituições, como programas de mestrado, doutorado e iniciação.<br><br>
+            O Zoo de Guarulhos mantém uma rica vegetação com árvores exóticas e nativas que proporciona uma linda paisagem e ainda
+            contribui com a alimentação das nossas aves.<br><br><br>
+            </p>
+        </div>
+
+        <div class="conteudo">
+            <img class="imagens" src="https://zoologico.guarulhos.sp.gov.br/images/zoo/figura2.jpg" alt="Parte da medicina veterinária" align="middle">
+            <p class="texto">
+                Atualmente são mantidos em exposição cerca de 500 animais de 100 diferentes espécies entre mamíferos, aves e 
+                répteis em recintos dispostos em meio a jardins, árvores nativas e lagos margeados por áreas reconstituídas 
+                com espécies da Mata Atlântica.
+            </p><br><br>
+            <img class="imagens" src="https://zoologico.guarulhos.sp.gov.br/images/zoo/figura3.jpg" alt="Práticas da medicina veterinária" align="middle"><br><br/>
+            <img class="imagens" src="https://zoologico.guarulhos.sp.gov.br/images/zoo/figura4.jpg" alt="Sala/ clínica" align="middle">
+            <br><br>
+            
+        </div>
+    </div>
+
+    <script>
+        function abrirMenu() {
+            document.getElementById('Menu').style.width = "250px";
+            document.getElementById('conteudo').style.marginleft = "250px";
+                }
+        function fecharMenu() {
+            document.getElementById('Menu').style.width = "0px";
+            document.getElementById('Menu').style.marginleft = "0px";
+        }
+    </script>
+        
+</body>
+</html>

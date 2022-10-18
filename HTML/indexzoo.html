@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Zoológico</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+<body>
+    <header>
+        <a href="#" class="Menu" onclick="abrirMenu()">&#9776; Menu </a>
+    
+    <nav id="Menu">
+        <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="indexzoo.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="mapa.html">Mapa do ZOO</a>
+        <a href="animais.html">Animais</a>
+        <a href="vegetacao.html">Vegetação</a>
+    </nav>
+    </header>
+    <main>
+        <div id="corpo">
+            <h1> Zoológico Municipal de Guarulhos </h1>
+            <h2> Venha conhecer, traga familiares e amigos!</h2><br><br><br>
+        </div>
+        <div id="image-text">
+            <div id="image">
+                <img src="oncamain.jpg" height="410px" width="277px" alt="Imagem de uma onça"></div>
+            <div id="text">
+                <p> O Zoológico de Guarulhos, criado em 1981, mantém cerca de 500 animais, de 100 diferentes espécies,
+                priorizando a fauna nacional, com 91% de espécies nativas. O Zoo participa de programas de conservação
+                de espécies ameaçadas, realiza pesquisas científicas e atividades de educação para conservação. Os animais 
+                recebem cuidados constantes, tanto preventivos como curativos, por uma equipe de biólogos, veterinários
+                e tratadores, incumbidos da manutenção de sua saúde e bem estar.</p>    
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <hr><br><br>
+        <div align="center">
+            <div class="infos">                  
+                <h3 style="color:rgba(73, 48, 33);"><strong>Endereço</strong></h3>
+                <p style="color:rgba(255, 255, 255, 0.534);"><strong>Av. Doná Glória Pagnonceli, 344</strong></p>
+            </div>
+            <div id="contatos" class="infos">
+                <h3 style="color:rgba(73, 48, 33);"><strong>Contato e E-mail</strong></h3>
+                <p style="color:rgba(255, 255, 255, 0.534);"> (11) 2455-6497-manejo.zooguarulhos@gmail.com</strong></p>
+            </div>
+            <div>
+                <h3 style="color:rgba(73, 48, 33);"><strong>Horário de funcionamento</strong></h3>
+                <p style="color:rgba(255, 255, 255, 0.534);"><strong>Terça à Domingo das 9h às 17h</strong></p>
+                <p style="color:rgba(255, 255, 255, 0.534);"><strong>Segunda não é aberto</strong></p>
+                <p style="color:rgba(223, 12, 12);"><strong>*Os portões fecham às 16h30 no dia de funcionamento!</strong></p>   
+            </div>
+        
+        </div>
+    </footer>
+    <script>
+        function abrirMenu() {
+            document.getElementById('Menu').style.width = "250px";
+            document.getElementById('conteudo').style.marginleft = "250px";
+                }
+        function fecharMenu() {
+            document.getElementById('Menu').style.width = "0px";
+            document.getElementById('Menu').style.marginleft = "0px";
+        }
+    </script>
+    
+</body>
+</html>
+
